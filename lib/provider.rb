@@ -1,5 +1,8 @@
+require 'httparty'
+require 'json'
+
 require "provider/version"
+require "provider/digital_ocean"
 
 module Provider
-  # Your code goes here...
 end
