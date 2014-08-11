@@ -18,7 +18,7 @@ module Provider
     
     def tratar_response(response)
       if response.code == 200
-        JSON.parse(response.parsed_response)
+        response.parsed_response
       else
         raise ArgumentError, response.parsed_response['error']
       end

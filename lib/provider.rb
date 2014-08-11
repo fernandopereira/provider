@@ -1,9 +1,9 @@
 require 'httparty'
 require 'json'
 
-require "provider/version"
-require "provider/digital_ocean"
-require "provider/digital_ocean/droplet"
+require_relative "provider/version"
+require_relative "provider/digital_ocean"
+require_relative "provider/digital_ocean/droplet"
 
 module Provider
 end
