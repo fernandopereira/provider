@@ -14,6 +14,7 @@ module Provider
       tratar_response(response)
     end
 
+    #Create a new droplet(machine)
     def create
       @header.merge!({'Content-Type' => "application/json"})
       query = {name: "Default", region: "sfo1", size: "512mb", image: '5141286'}
