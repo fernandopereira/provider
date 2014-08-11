@@ -1,5 +1,3 @@
-require "digital_ocean_v2/droplet"
-
 class Provider::DigitalOcean
 
   def initialize(api_token = 'f27ef5cdeb1679a72b52720ef5d45640c3ef98a33f74ff3cc5d7d01aee9c6eb1')
